@@ -1,0 +1,21 @@
+test() {
+    echo hello world
+}
+
+create() {
+    echo CREATING
+    touch dank.txt
+}
+
+delete() {
+    echo DELETING
+    rm dank.txt
+}
+
+run() {
+    go run main.go
+}
+
+build() {
+    go build -o do main.go
+}
